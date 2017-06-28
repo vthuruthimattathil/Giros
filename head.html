@@ -1,0 +1,37 @@
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <title> - </title>
+ <link rel="stylesheet" href="../css/jquery-ui.structure.css" type="text/css" />
+ <link rel="stylesheet" href="../css/jquery-ui.theme.css" type="text/css" />
+ <link rel="stylesheet" href="../tablesorter/css/theme.blue.css" type="text/css" />
+ <link rel="stylesheet" href="../css/layout.css" type="text/css" />
+ <script type="text/javascript" src="../jquery/jquery.js"></script>
+ <script type="text/javascript" src="../jquery/jquery-ui.js"></script>
+ <script type="text/javascript" src="../tablesorter/js/jquery.tablesorter.js"></script>
+ <script type="text/javascript" src="../tablesorter/js/jquery.tablesorter.widgets.js"></script>
+ <script type="text/javascript" src="../menu.js"></script>
+ <script type="text/javascript" src=""></script>
+</head>  
+
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <title> - </title>
+ <link rel="stylesheet" href="../css/jquery-ui.structure.css" type="text/css" />
+ <link rel="stylesheet" href="../css/jquery-ui.theme.css" type="text/css" />
+ <link rel="stylesheet" href="../css/layout.css" type="text/css" />
+ <script type="text/javascript" src="../jquery/jquery.js"></script>
+ <script type="text/javascript" src="../jquery/jquery-ui.js"></script>
+ <script type="text/javascript" src="../menu.js"></script>
+ <script type="text/javascript" src=""></script>
+</head>  
+
+  <table id="myTable"  class="tablesorter tablesorter-blue" >
+   
+    $("#myTable").tablesorter({
+    headerTemplate: '{content}{icon}'
+   });
+   
+   $("#myTable").tablesorter({
+   headerTemplate: '{content}{icon}',
+   dateFormat: "ddmmyyyy"
+  });
